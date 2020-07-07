@@ -3,4 +3,11 @@
 [[package]]
 name = "guswynn-test-crate"
 version = "0.1.0"
+dependencies = [
+ "guswynn-test-dep 0.1.0",
+]
+
+[[package]]
+name = "guswynn-test-dep"
+version = "0.1.0"
 
