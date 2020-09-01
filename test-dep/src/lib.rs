@@ -29,5 +29,6 @@ fn main() {
     let g = Gus {
         a: "gus".to_string(),
     };
+    println!("{}", g);
     println!("TEST DONE");
 }
