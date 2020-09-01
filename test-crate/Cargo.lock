@@ -2,12 +2,12 @@
 # It is not intended for manual editing.
 [[package]]
 name = "guswynn-test-crate"
-version = "0.2.0"
+version = "0.3.0"
 dependencies = [
- "guswynn-test-dep 0.1.0",
+ "guswynn-test-dep 0.2.0",
 ]
 
 [[package]]
 name = "guswynn-test-dep"
-version = "0.1.0"
+version = "0.2.0"
 

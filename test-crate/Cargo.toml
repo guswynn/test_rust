@@ -1,6 +1,6 @@
 [package]
 name = "guswynn-test-crate"
-version = "0.2.0"
+version = "0.3.0"
 authors = ["Gus Wynn <guswynn@gmail.com>"]
 edition = "2018"
 
@@ -13,4 +13,4 @@ description = "My test crate to test rust stuff and crates.io"
 
 [dependencies.guswynn-test-dep]
 path = "../test-dep"
-version = "~0.1"
+version = "~0.2"  

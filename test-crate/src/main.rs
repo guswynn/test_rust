@@ -1,3 +1,4 @@
+use guswynn_test_dep::Gus as Gus1;
 struct Gus {
     a: String,
 }
@@ -5,8 +6,6 @@ struct Gus {
 impl Gus {
     fn do_it(&self) {}
 }
-
-use guswynn_test_dep::Gus1;
 
 struct Example {
     number: i32,
