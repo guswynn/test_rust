@@ -1,4 +1,4 @@
-struct Gus {
+pub struct Gus {
     a: String,
 }
 
