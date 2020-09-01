@@ -23,12 +23,3 @@ impl Example {
         self.number
     }
 }
-
-fn main() {
-    let s = "gus".to_string();
-    let g = Gus {
-        a: "gus".to_string(),
-    };
-    println!("{}", g);
-    println!("TEST DONE");
-}
