@@ -31,4 +31,11 @@ fn main() {
         a: "gus".to_string(),
     };
     println!("TEST DONE");
+
+    let test = guswynn_test_dep::Test {
+        i: 1,
+        ..Default::default()
+    };
+
+    let test1 = guswynn_test_dep::Test::default();
 }

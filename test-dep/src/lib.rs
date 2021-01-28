@@ -23,3 +23,9 @@ impl Example {
         self.number
     }
 }
+
+#[derive(Default)]
+pub struct Test {
+    pub i: i64,
+    pri: i64,
+}
