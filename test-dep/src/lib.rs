@@ -24,6 +24,13 @@ impl Example {
     }
 }
 
+
+pub trait Thing {
+    fn self_sized(self) 
+        where Self: Sized {}
+}
+
+
 #[derive(Default)]
 pub struct Test {
     pub i: i64,
