@@ -4,6 +4,7 @@ pub struct Gus {
 
 impl Gus {
     fn do_it(&self) {}
+    fn do_it2(&self) {}
 }
 
 struct Example {
