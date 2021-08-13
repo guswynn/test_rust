@@ -1,6 +1,6 @@
 [package]
 name = "guswynn-test-dep"
-version = "0.3.0"
+version = "0.3.1"
 authors = ["Gus Wynn <guswynn@gmail.com>"]
 edition = "2018"
 
